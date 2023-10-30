@@ -1,15 +1,16 @@
 # Установка
 Проект написан на python 3.10
 
-1. Перейдите в директорию Volga_IT `cd Volga_IT`.    
-2. Создайте виртуальное окружение: `python -m venv venv`.
-3. Активируйте его: `venv\Scripts\activate.bat`.
-4. Перейдите в папку Sibmir_GO: `cd Sibmir_GO`.
-5. Установите зависимости: `pip install -r requirements.txt`.
-6. Переименовать файл .env.dist в .env и заменить в нём значения перемнных на настоящие данные postgreSQL.  
-7. Проведите миграции: `python manage.py migrate`.
-8. Создайте админа: `python manage.py createsuperuser`.  
-9. Запустить проект `python manage.py runserver`.
+1. Клонируйте репозиторий в нужную вам папку: `git clone https://github.com/pelmenos/Volga_IT.git`
+2. Перейдите в директорию Volga_IT `cd Volga_IT`.    
+3. Создайте виртуальное окружение: `python -m venv venv`.
+4. Активируйте его: `venv\Scripts\activate.bat`.
+5. Перейдите в папку Simbir_GO: `cd Simbir_GO`.
+6. Установите зависимости: `pip install -r requirements.txt`.
+7. Переименовать файл .env.dist в .env и заменить в нём значения перемнных на настоящие данные postgreSQL.  
+8. Проведите миграции: `python manage.py migrate`.
+9. Создайте админа: `python manage.py createsuperuser`.  
+10. Запустить проект `python manage.py runserver`.
 
 ### URL http://127.0.0.1:8000/swagger/
 
